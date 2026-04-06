@@ -94,8 +94,8 @@ const saveNotifications = (notifications) => fs.writeJsonSync(NOTIFICATIONS_FILE
 const saveTasks = (tasks) => fs.writeJsonSync(TASKS_FILE, tasks);
 
 // Telegram Bot Configuration (Replace with your actual bot token and chat ID)
-const TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE';
-const TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID_HERE';
+const TELEGRAM_BOT_TOKEN = '8722934715:AAEDiMFt1-t1mx3kZs78E3K9__tGIH1pmJY';
+const TELEGRAM_CHAT_ID = '7373977572';
 
 async function sendTelegramNotification(message) {
     try {
